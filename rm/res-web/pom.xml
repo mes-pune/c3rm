@@ -14,6 +14,17 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+ 	<dependency>
+      <groupId>com.mes.c3rm</groupId>
+      <artifactId>res-mgr-common</artifactId>
+      <version>1.0</version>
+    </dependency>
+ 	<dependency>
+      <groupId>com.mes.c3rm</groupId>
+      <artifactId>res-mgr</artifactId>
+      <version>1.0</version>
+    </dependency>    
+        
   </dependencies>
   <build>
     <finalName>res-web</finalName>
