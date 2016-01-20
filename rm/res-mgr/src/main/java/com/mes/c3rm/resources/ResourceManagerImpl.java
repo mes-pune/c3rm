@@ -1,5 +1,7 @@
 package com.mes.c3rm.resources;
 
+import java.util.List;
+
 import com.mes.c3rm.common.model.ContainerModel;
 import com.mes.c3rm.common.resources.ResourceManager;
 import com.spotify.docker.client.DefaultDockerClient;
@@ -19,14 +21,12 @@ public class ResourceManagerImpl implements ResourceManager{
 	}
 	
 	public void createContainer(ContainerModel containerModel) {
-		final ContainerConfig containerConfig = ContainerConfig.builder()
-			    .hostConfig(hostConfig)
-			    .image("busybox")
-			    .cmd("sh", "-c", "while :; do sleep 1; done")
-			    .build();
 		
-		dockerClient.createContainer(containerConfig);
-		
+	}
+
+	public List<ContainerModel> getContainerList() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 }
