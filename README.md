@@ -12,8 +12,13 @@ This will take some time
 The sample is just to demostrate the code
 
 Git commands
+
 git status - will give you the status of the local branch
+
 git add -u - will add the files to the staging area
+
 git commit -m "message" - commits the files
+
 git push - will push the file to the repo on github
+
 
