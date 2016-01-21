@@ -21,4 +21,6 @@ git commit -m "message" - commits the files
 
 git push - will push the file to the repo on github
 
+git pull - to pull the latest code
+
 
