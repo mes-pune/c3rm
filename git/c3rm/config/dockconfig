@@ -1,0 +1,17 @@
+# Make following changes in /etc/init/docker.conf
+
+# Go to root directory
+
+$ sudo su
+
+# Go to /etc/init/docker.conf
+
+$ cd /etc/init
+$ gedit docker.conf
+
+# Add the lines at the end of the file
+
+script
+ /usr/bin/docker -H tcp://127.0.0.1:2375 -d
+end script
+
