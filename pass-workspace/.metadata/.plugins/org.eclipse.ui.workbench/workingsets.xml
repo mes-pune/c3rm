@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1453573506659_0" label="res-main" name="res-main">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/res-main" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/res-mgr-common" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/res-mgr" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/res-web" type="4"/>
+</workingSet>
+</workingSetManager>

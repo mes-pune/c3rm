@@ -1,0 +1,193 @@
+2016-01-23 10:25:07,297 [Worker-0] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.mes.c3rm:res-main:1.0 @ /home/mes/dev/git-sources/c3rm/paas-rm/pom.xml.
+2016-01-23 10:25:10,979 [Worker-0] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.mes.c3rm:res-mgr-common:1.0 @ /home/mes/dev/git-sources/c3rm/paas-rm/res-mgr-common/pom.xml.
+2016-01-23 10:25:11,076 [Worker-0] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.mes.c3rm:res-mgr:1.0 @ /home/mes/dev/git-sources/c3rm/paas-rm/res-mgr/pom.xml.
+2016-01-23 10:25:12,444 [Worker-0] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.mes.c3rm:res-web:1.0 @ /home/mes/dev/git-sources/c3rm/paas-rm/res-web/pom.xml.
+2016-01-23 10:25:14,826 [Worker-0] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /res-mgr-common/src/main/java
+2016-01-23 10:25:14,827 [Worker-0] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /res-mgr-common/src/test/java
+2016-01-23 10:25:15,067 [Worker-0] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /res-mgr/src/main/java
+2016-01-23 10:25:15,069 [Worker-0] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /res-mgr/src/test/java
+2016-01-23 10:25:15,588 [Worker-0] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /res-web/src/main/java
+2016-01-23 10:25:15,589 [Worker-0] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /res-web/src/test/java
+2016-01-23 10:25:26,862 [Worker-0] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 4 project(s) in 20 sec
+2016-01-23 10:25:30,300 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-23 10:25:30,306 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/mes/dev/git-sources/c3rm/paas-rm/res-mgr-common/src/main/resources
+2016-01-23 10:25:30,309 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-23 10:25:30,309 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/mes/dev/git-sources/c3rm/paas-rm/res-mgr-common/src/test/resources
+2016-01-23 10:25:32,126 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-23 10:25:32,126 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/mes/dev/git-sources/c3rm/paas-rm/res-mgr/src/main/resources
+2016-01-23 10:25:32,127 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-23 10:25:32,127 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/mes/dev/git-sources/c3rm/paas-rm/res-mgr/src/test/resources
+2016-01-23 10:25:33,115 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-23 10:25:33,116 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/mes/dev/git-sources/c3rm/paas-rm/res-web/src/main/resources
+2016-01-23 10:25:33,117 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-23 10:25:33,117 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/mes/dev/git-sources/c3rm/paas-rm/res-web/src/test/resources
+2016-01-23 10:25:40,447 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.mes.c3rm:res-web:1.0 @ /home/mes/dev/git-sources/c3rm/paas-rm/res-web/pom.xml.
+2016-01-23 10:25:49,918 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/mes/c3rm/paas/res-mgr-common/1.0/res-mgr-common-1.0.pom
+2016-01-23 10:25:49,925 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.mes.c3rm.paas:res-mgr-common:jar:1.0 is missing, no dependency information available
+2016-01-23 10:25:51,688 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/mes/c3rm/paas/res-mgr-common/1.0/res-mgr-common-1.0.jar
+2016-01-23 10:25:51,872 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.mes.c3rm.paas:res-mgr-common:jar:1.0 is missing, no dependency information available
+2016-01-23 10:25:53,102 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-23 10:25:53,102 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/mes/dev/git-sources/c3rm/paas-rm/res-web/src/main/resources
+2016-01-23 10:25:53,104 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-23 10:25:53,104 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/mes/dev/git-sources/c3rm/paas-rm/res-web/src/test/resources
+2016-01-23 10:25:53,146 [Worker-4] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of res-web
+2016-01-23 10:25:53,158 [Worker-4] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for res-web
+2016-01-23 10:25:53,167 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-23 10:25:53,524 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.mes.c3rm.paas:res-mgr-common:jar:1.0 is missing, no dependency information available
+2016-01-23 10:25:53,840 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-23 10:25:53,840 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/mes/dev/git-sources/c3rm/paas-rm/res-web/src/main/resources
+2016-01-23 10:25:53,842 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-23 10:25:53,842 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/mes/dev/git-sources/c3rm/paas-rm/res-web/src/test/resources
+2016-01-23 10:26:02,396 [Worker-5] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.mes.c3rm.paas:res-mgr-common:1.0 @ /home/mes/dev/git-sources/c3rm/paas-rm/res-mgr-common/pom.xml.
+2016-01-23 10:26:02,464 [Worker-5] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.mes.c3rm:res-mgr:1.0 @ /home/mes/dev/git-sources/c3rm/paas-rm/res-mgr/pom.xml.
+2016-01-23 10:26:02,730 [Worker-5] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.mes.c3rm:res-web:1.0 @ /home/mes/dev/git-sources/c3rm/paas-rm/res-web/pom.xml.
+2016-01-23 10:26:03,384 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-23 10:26:03,385 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/mes/dev/git-sources/c3rm/paas-rm/res-mgr-common/src/main/resources
+2016-01-23 10:26:03,386 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-23 10:26:03,386 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/mes/dev/git-sources/c3rm/paas-rm/res-mgr-common/src/test/resources
+2016-01-23 10:26:03,988 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-23 10:26:03,988 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/mes/dev/git-sources/c3rm/paas-rm/res-mgr/src/main/resources
+2016-01-23 10:26:03,989 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-23 10:26:03,989 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/mes/dev/git-sources/c3rm/paas-rm/res-mgr/src/test/resources
+2016-01-23 10:26:04,465 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-23 10:26:04,466 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/mes/dev/git-sources/c3rm/paas-rm/res-web/src/main/resources
+2016-01-23 10:26:04,468 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-23 10:26:04,469 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/mes/dev/git-sources/c3rm/paas-rm/res-web/src/test/resources
+2016-01-23 10:26:19,729 [Worker-8] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.mes.c3rm.paas:res-mgr:1.0 @ /home/mes/dev/git-sources/c3rm/paas-rm/res-mgr/pom.xml.
+2016-01-23 10:26:19,977 [Worker-8] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.mes.c3rm:res-web:1.0 @ /home/mes/dev/git-sources/c3rm/paas-rm/res-web/pom.xml.
+2016-01-23 10:26:20,544 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-23 10:26:20,545 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/mes/dev/git-sources/c3rm/paas-rm/res-mgr/src/main/resources
+2016-01-23 10:26:20,546 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-23 10:26:20,546 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/mes/dev/git-sources/c3rm/paas-rm/res-mgr/src/test/resources
+2016-01-23 10:26:20,742 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-23 10:26:20,742 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/mes/dev/git-sources/c3rm/paas-rm/res-web/src/main/resources
+2016-01-23 10:26:20,744 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-23 10:26:20,744 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/mes/dev/git-sources/c3rm/paas-rm/res-web/src/test/resources
+2016-01-23 10:26:22,550 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-23 10:26:22,550 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/mes/dev/git-sources/c3rm/paas-rm/res-mgr/src/main/resources
+2016-01-23 10:26:22,552 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-23 10:26:22,552 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/mes/dev/git-sources/c3rm/paas-rm/res-mgr/src/test/resources
+2016-01-23 10:26:22,598 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-23 10:26:22,598 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/mes/dev/git-sources/c3rm/paas-rm/res-web/src/main/resources
+2016-01-23 10:26:22,599 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-23 10:26:22,600 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/mes/dev/git-sources/c3rm/paas-rm/res-web/src/test/resources
+2016-01-23 10:26:36,564 [Worker-9] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.mes.c3rm.paas:res-web:1.0 @ /home/mes/dev/git-sources/c3rm/paas-rm/res-web/pom.xml.
+2016-01-23 10:26:37,724 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-23 10:26:37,724 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/mes/dev/git-sources/c3rm/paas-rm/res-web/src/main/resources
+2016-01-23 10:26:37,726 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-23 10:26:37,726 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/mes/dev/git-sources/c3rm/paas-rm/res-web/src/test/resources
+2016-01-23 10:26:37,726 [Worker-9] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of res-web
+2016-01-23 10:26:37,726 [Worker-9] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for res-web
+2016-01-23 10:26:37,731 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-23 10:26:39,158 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-23 10:26:39,158 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/mes/dev/git-sources/c3rm/paas-rm/res-web/src/main/resources
+2016-01-23 10:26:39,159 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-23 10:26:39,160 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/mes/dev/git-sources/c3rm/paas-rm/res-web/src/test/resources
+2016-01-23 10:27:10,027 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-23 10:27:10,027 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/mes/dev/git-sources/c3rm/paas-rm/res-mgr-common/src/main/resources
+2016-01-23 10:27:10,029 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-23 10:27:10,029 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/mes/dev/git-sources/c3rm/paas-rm/res-mgr-common/src/test/resources
+2016-01-23 10:27:10,234 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-23 10:27:10,234 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/mes/dev/git-sources/c3rm/paas-rm/res-mgr/src/main/resources
+2016-01-23 10:27:10,237 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-23 10:27:10,237 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/mes/dev/git-sources/c3rm/paas-rm/res-mgr/src/test/resources
+2016-01-23 10:27:10,265 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-23 10:27:10,267 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/mes/dev/git-sources/c3rm/paas-rm/res-web/src/main/resources
+2016-01-23 10:27:10,269 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-23 10:27:10,269 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/mes/dev/git-sources/c3rm/paas-rm/res-web/src/test/resources
+2016-01-23 10:27:34,617 [Worker-1] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for res-web
+2016-01-23 10:27:34,930 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-23 10:27:34,931 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/mes/dev/git-sources/c3rm/paas-rm/res-mgr-common/src/main/resources
+2016-01-23 10:27:34,934 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-23 10:27:34,935 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/mes/dev/git-sources/c3rm/paas-rm/res-mgr-common/src/test/resources
+2016-01-23 10:27:35,182 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-23 10:27:35,182 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/mes/dev/git-sources/c3rm/paas-rm/res-mgr/src/main/resources
+2016-01-23 10:27:35,186 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-23 10:27:35,186 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/mes/dev/git-sources/c3rm/paas-rm/res-mgr/src/test/resources
+2016-01-23 10:27:35,214 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-23 10:27:35,214 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/mes/dev/git-sources/c3rm/paas-rm/res-web/src/main/resources
+2016-01-23 10:27:35,217 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-23 10:27:35,217 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/mes/dev/git-sources/c3rm/paas-rm/res-web/src/test/resources
+2016-01-23 10:27:35,219 [Worker-3] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of res-web
+2016-01-23 10:27:35,219 [Worker-3] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for res-web
+2016-01-23 10:27:36,071 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-23 10:28:11,954 [Worker-3] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-01-23 10:28:13,281 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.mes.c3rm.paas:res-mgr:1.0 @ /home/mes/dev/git-sources/c3rm/paas-rm/res-mgr/pom.xml.
+2016-01-23 10:28:13,589 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.mes.c3rm.paas:res-mgr-common:1.0 @ /home/mes/dev/git-sources/c3rm/paas-rm/res-mgr-common/pom.xml.
+2016-01-23 10:28:13,639 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.mes.c3rm.paas:res-web:1.0 @ /home/mes/dev/git-sources/c3rm/paas-rm/res-web/pom.xml.
+2016-01-23 10:28:15,230 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /res-mgr/src/main/java
+2016-01-23 10:28:15,231 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /res-mgr/src/test/java
+2016-01-23 10:28:15,341 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /res-mgr-common/src/main/java
+2016-01-23 10:28:15,342 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /res-mgr-common/src/test/java
+2016-01-23 10:28:15,417 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /res-web/src/main/java
+2016-01-23 10:28:15,418 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /res-web/src/test/java
+2016-01-23 10:28:17,250 [Worker-3] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for res-web
+2016-01-23 10:28:17,256 [Worker-3] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 5 sec
+2016-01-23 10:28:17,635 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-23 10:28:17,635 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/mes/dev/git-sources/c3rm/paas-rm/res-mgr-common/src/main/resources
+2016-01-23 10:28:17,638 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-23 10:28:17,639 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/mes/dev/git-sources/c3rm/paas-rm/res-mgr-common/src/test/resources
+2016-01-23 10:28:18,205 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-23 10:28:18,205 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/mes/dev/git-sources/c3rm/paas-rm/res-mgr/src/main/resources
+2016-01-23 10:28:18,206 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-23 10:28:18,206 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/mes/dev/git-sources/c3rm/paas-rm/res-mgr/src/test/resources
+2016-01-23 10:28:18,442 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-23 10:28:18,442 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/mes/dev/git-sources/c3rm/paas-rm/res-web/src/main/resources
+2016-01-23 10:28:18,447 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-23 10:28:18,448 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/mes/dev/git-sources/c3rm/paas-rm/res-web/src/test/resources
+2016-01-23 10:28:18,448 [Worker-1] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of res-web
+2016-01-23 10:28:18,448 [Worker-1] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for res-web
+2016-01-23 10:28:18,452 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-23 10:29:20,863 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-23 10:29:20,893 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/mes/dev/git-sources/c3rm/paas-rm/res-mgr-common/src/main/resources
+2016-01-23 10:29:20,905 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-23 10:29:20,905 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/mes/dev/git-sources/c3rm/paas-rm/res-mgr-common/src/test/resources
+2016-01-23 10:29:20,934 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-23 10:29:20,935 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/mes/dev/git-sources/c3rm/paas-rm/res-mgr/src/main/resources
+2016-01-23 10:29:20,936 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-23 10:29:20,936 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/mes/dev/git-sources/c3rm/paas-rm/res-mgr/src/test/resources
+2016-01-23 10:29:20,954 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-23 10:29:20,954 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/mes/dev/git-sources/c3rm/paas-rm/res-web/src/main/resources
+2016-01-23 10:29:20,955 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-23 10:29:20,956 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/mes/dev/git-sources/c3rm/paas-rm/res-web/src/test/resources
+2016-01-23 10:29:27,740 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-23 10:29:27,740 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/mes/dev/git-sources/c3rm/paas-rm/res-mgr/src/main/resources
+2016-01-23 10:29:27,741 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-23 10:29:27,741 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/mes/dev/git-sources/c3rm/paas-rm/res-mgr/src/test/resources
+2016-01-23 10:41:09,270 [Worker-11] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for res-web
+2016-01-23 10:41:09,460 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-23 10:41:09,460 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/mes/dev/git-sources/c3rm/paas-rm/res-mgr-common/src/main/resources
+2016-01-23 10:41:09,461 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-23 10:41:09,462 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/mes/dev/git-sources/c3rm/paas-rm/res-mgr-common/src/test/resources
+2016-01-23 10:41:09,636 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-23 10:41:09,636 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/mes/dev/git-sources/c3rm/paas-rm/res-mgr/src/main/resources
+2016-01-23 10:41:09,638 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-23 10:41:09,638 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/mes/dev/git-sources/c3rm/paas-rm/res-mgr/src/test/resources
+2016-01-23 10:41:09,732 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-23 10:41:09,733 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/mes/dev/git-sources/c3rm/paas-rm/res-web/src/main/resources
+2016-01-23 10:41:09,734 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-23 10:41:09,735 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/mes/dev/git-sources/c3rm/paas-rm/res-web/src/test/resources
+2016-01-23 10:41:09,735 [Worker-10] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of res-web
+2016-01-23 10:41:09,735 [Worker-10] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for res-web
+2016-01-23 10:41:10,074 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-23 10:46:58,104 [Worker-14] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-01-23 10:46:58,266 [Worker-14] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.mes.c3rm:res-main:1.0 @ /home/mes/dev/git-sources/c3rm/paas-rm/pom.xml.
+2016-01-23 10:46:58,869 [Worker-14] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.mes.c3rm.paas:res-mgr:1.0 @ /home/mes/dev/git-sources/c3rm/paas-rm/res-mgr/pom.xml.
+2016-01-23 10:46:59,048 [Worker-14] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.mes.c3rm.paas:res-mgr-common:1.0 @ /home/mes/dev/git-sources/c3rm/paas-rm/res-mgr-common/pom.xml.
+2016-01-23 10:46:59,075 [Worker-14] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.mes.c3rm.paas:res-web:1.0 @ /home/mes/dev/git-sources/c3rm/paas-rm/res-web/pom.xml.
+2016-01-23 10:47:00,511 [Worker-14] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /res-mgr/src/main/java
+2016-01-23 10:47:00,511 [Worker-14] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /res-mgr/src/test/java
+2016-01-23 10:47:00,635 [Worker-14] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /res-mgr-common/src/main/java
+2016-01-23 10:47:00,636 [Worker-14] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /res-mgr-common/src/test/java
+2016-01-23 10:47:00,709 [Worker-14] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /res-web/src/main/java
+2016-01-23 10:47:00,710 [Worker-14] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /res-web/src/test/java
+2016-01-23 10:47:02,562 [Worker-14] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for res-web
+2016-01-23 10:47:02,564 [Worker-14] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 4 sec
+2016-01-23 10:47:43,029 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-23 10:47:43,030 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/mes/dev/git-sources/c3rm/paas-rm/res-mgr-common/src/main/resources
+2016-01-23 10:47:43,032 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-23 10:47:43,032 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/mes/dev/git-sources/c3rm/paas-rm/res-mgr-common/src/test/resources
+2016-01-23 10:47:43,755 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-23 10:47:43,755 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/mes/dev/git-sources/c3rm/paas-rm/res-mgr/src/main/resources
+2016-01-23 10:47:43,756 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-23 10:47:43,767 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/mes/dev/git-sources/c3rm/paas-rm/res-mgr/src/test/resources

@@ -1,0 +1,5 @@
+#Tomcat publish data
+#Sat Jan 23 10:47:12 PST 2016
+org.eclipse.jst.j2ee.server\:res-web=/home/mes/dev/tools/sts-bundle/pivotal-tc-server-developer-3.1.2.RELEASE/c3rmLab/wtpwebapps/res-web
+org.eclipse.jst.j2ee.server\:res-mgr-common=/home/mes/dev/tools/sts-bundle/pivotal-tc-server-developer-3.1.2.RELEASE/c3rmLab/wtpwebapps/res-web/WEB-INF/lib/res-mgr-common-1.0.jar
+org.eclipse.jst.j2ee.server\:res-mgr=/home/mes/dev/tools/sts-bundle/pivotal-tc-server-developer-3.1.2.RELEASE/c3rmLab/wtpwebapps/res-web/WEB-INF/lib/res-mgr-1.0.jar

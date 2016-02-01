@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="res-web">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <dependent-module archiveName="res-mgr-1.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/res-mgr/res-mgr">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="com.mes.c3rm-res-mgr-common-1.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/res-mgr-common/res-mgr-common">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="res-web"/>
+        <property name="java-output-path" value="/res-web/target/classes"/>
+    </wb-module>
+</project-modules>

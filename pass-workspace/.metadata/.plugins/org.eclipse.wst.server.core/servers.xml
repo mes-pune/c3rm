@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servers>
+  <server auto-publish-setting="2" auto-publish-time="1" com.springsource.tcserver.asf="false" com.springsource.tcserver.name="c3rmLab" configuration-id="/Servers/c3rmLab - Pivotal tc Server v2.5 - v2.9 at localhost-config" deployDir="wtpwebapps" hostname="localhost" id="c3rmLab - Pivotal tc Server v2.5 - v2.9 at localhost" instanceDir="/home/mes/dev/tools/sts-bundle/pivotal-tc-server-developer-3.1.2.RELEASE" name="c3rmLab - Pivotal tc Server v2.5 - v2.9 at localhost" runtime-id="Pivotal tc Server v2.5 - v2.9" saveSeparateContextFiles="true" server-type="com.vmware.server.tc.70" server-type-id="com.vmware.server.tc.70" start-timeout="120" stop-timeout="15" testEnvironment="false" timestamp="1">
+    <list key="removeExtraVmArgs"/>
+    <list key="addExtraVmArgs" value0="-Dinsight.enabled=false"/>
+    <list key="modules" value0="res-web::org.eclipse.jst.j2ee.server:res-web::jst.web::2.3"/>
+  </server>
+</servers>
