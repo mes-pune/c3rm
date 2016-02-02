@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/c3rm.css"/>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+<form action="jsp/AddContainerController.jsp" method="post" class="basic-grey">
+    <h1>New container 
+        <span>Please fill all the texts in the fields.</span>
+    </h1>
+    <label>
+        <span>Name:</span>
+        <input id="name" type="text" name="name" placeholder="Container Name" />
+    </label>
+    
+    <label>
+        <span>Image:</span>
+        <input id="imageName" type="text" name="imageName" placeholder="Image Name" />
+    </label>
+    <label>
+        <span>Instance:</span><select name="selection">
+        <option value="High">High</option>
+        <option value="low">Low</option>
+        </select>
+    </label>    
+    <label>
+        <span>CPU:</span>
+        <input id="cpu" type="text" name="cpu" placeholder="CPU size" />
+    </label> 
+    <label>
+        <span>Memory:</span>
+        <input id="ram" type="text" name="ram" placeholder="RAM size" />
+    </label> 
+     <label>
+        <span>&nbsp;</span> 
+        <input type="submit" class="button" value="Submit" /> 
+    </label>    
+</form>
+</body>
+</html>
