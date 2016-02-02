@@ -1,8 +1,3 @@
-<%@page import="java.util.ArrayList"%>
-<%@page import="java.util.List"%>
-<%@page import="com.mes.c3rm.resources.ResourceManagerImpl"%>
-<%@page import="com.mes.c3rm.common.resources.ResourceManager"%>
-<%@page import="com.mes.c3rm.common.model.ContainerModel"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <%@ taglib prefix="c" 
@@ -22,16 +17,18 @@
 		</tr>
 	</table>
 	</div>
-	<div style="width:300px;">
+	<div style="width:100%;">
 		<table cellspacing="1" cellpadding="1">
 			<tr>
 				<td>Select</td>
 				<td>Name</td>
 				<td>Image</td>
-				<td>Type</td>
-				<td>CPU(MHz)</td>
-				<td>Memory(MB)</td>
-				<td>Storage(MB)</td>
+				<td>Used CPU(%)</td>
+				<td>Used Memory(MB)</td>
+				<td>Available Memory(MB)</td>
+				<td>Total Memory(MB)</td>
+				<td>IP Address</td>
+				<td>MAC Address</td>
 				<td>Status</td>
 				<td>Action</td>
 			</tr>
@@ -40,10 +37,12 @@
 				<td><input type="checkbox" name="selectbox" value="${p.id}"></td>
 				<td><c:out value="${p.name}" /></td>
 				<td><c:out value="${p.imageName}" /></td>
-				<td><c:out value="${p.instanceType}" /></td>
 				<td><c:out value="${p.cpu}" /></td>
-				<td><c:out value="${p.memory}" /></td>
-				<td><c:out value="${p.storage}" /></td>
+				<td><c:out value="${p.usedMemory}" /></td>
+				<td><c:out value="${p.availableMemory}" /></td>
+				<td><c:out value="${p.totalMemory}" /></td>
+				<td><c:out value="${p.ipAddress}" /></td>
+				<td><c:out value="${p.macAddress}" /></td>
 				<td><c:out value="${p.status}" /></td>
 				<td>
 					<a href="stop?id=${p.id}">Stop</a>

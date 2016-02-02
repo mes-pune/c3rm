@@ -5,10 +5,12 @@ public class ContainerModel {
 	private String name;
 	private String imageName;
 	private String instanceType;
-	private long cpu;
+	private double cpuPercent;
 	private long memory;
 	private long storage;
-	private boolean status;
+	private boolean running;
+	private String ipAddress;
+	private String macAddress;
 	
 	public String getId() {
 		return id;
@@ -42,14 +44,6 @@ public class ContainerModel {
 		this.instanceType = instanceType;
 	}
 
-	public long getCpu() {
-		return cpu;
-	}
-
-	public void setCpu(long cpu) {
-		this.cpu = cpu;
-	}
-
 	public long getMemory() {
 		return memory;
 	}
@@ -66,11 +60,35 @@ public class ContainerModel {
 		this.storage = storage;
 	}
 
-	public boolean isStatus() {
-		return status;
+	public double getCpuPercent() {
+		return cpuPercent;
 	}
 
-	public void setStatus(boolean status) {
-		this.status = status;
+	public void setCpuPercent(double cpuPercent) {
+		this.cpuPercent = cpuPercent;
+	}
+
+	public String getIpAddress() {
+		return ipAddress;
+	}
+
+	public void setIpAddress(String ipAddress) {
+		this.ipAddress = ipAddress;
+	}
+
+	public String getMacAddress() {
+		return macAddress;
+	}
+
+	public void setMacAddress(String macAddress) {
+		this.macAddress = macAddress;
+	}
+
+	public boolean isRunning() {
+		return running;
+	}
+
+	public void setRunning(boolean running) {
+		this.running = running;
 	}
 }
