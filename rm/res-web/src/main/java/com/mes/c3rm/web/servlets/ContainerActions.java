@@ -34,18 +34,22 @@ public class ContainerActions extends HttpServlet {
 		String containerId = request.getParameter("id");
 		
 		ResourceManager resMgr= new ResourceManagerImpl();
-		if (actionName != null && actionName.equals("remove")){
-			resMgr.remove(Arrays.asList(containerId));
-		} else if (actionName != null && actionName.equals("stop")){
-			resMgr.stop(containerId);
-		} else if (actionName != null && actionName.equals("start")){
-			resMgr.start(containerId);
+		if (actionName != null) {
+			if (actionName.equals("remove")){
+				resMgr.remove(Arrays.asList(containerId));
+			} else if (actionName.equals("stop")){
+				resMgr.stop(containerId);
+			} else if (actionName.equals("start")){
+				resMgr.start(containerId);
+			}
+			
+			response.sendRedirect("/res-web");
+		} else {
+			// list containers after action
+			request.setAttribute("containers", resMgr.getContainerList());
+			RequestDispatcher rd = request.getRequestDispatcher("ListContainer.jsp");
+			rd.forward(request, response);
 		}
-		
-		// list containers after action
-		request.setAttribute("containers", resMgr.getContainerList());
-		RequestDispatcher rd = request.getRequestDispatcher("ListContainer.jsp");
-		rd.forward(request, response);
 	}
 
 	/**

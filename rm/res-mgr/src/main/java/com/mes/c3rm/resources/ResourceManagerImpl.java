@@ -46,7 +46,11 @@ public class ResourceManagerImpl implements ResourceManager{
 			
 			ContainerConfig config = ContainerConfig.builder().image(containerModel.getImageName()).build();
 			ContainerCreation container = dockerClient.createContainer(config, containerModel.getName());
-			System.out.println("Container created successfully: "+ containerModel.getImageName() + " id:" + container.id());
+			String containerId = container.id();
+			System.out.println("Container created successfully: "+ containerModel.getImageName() + " id:" + containerId);
+			start(containerId);
+			dockerClient.waitContainer(containerId);
+			
 			return container.id();
 			
 		} catch (Exception e) {
@@ -58,7 +62,8 @@ public class ResourceManagerImpl implements ResourceManager{
 	public List<ContainerModel> getContainerList() {
 		try {
 			
-			List<Container> containers = dockerClient.listContainers();
+			List<Container> containers = dockerClient.listContainers(DockerClient.ListContainersParam.allContainers(), 
+					DockerClient.ListContainersParam.exitedContainers());
 			if (containers.size() == 0) {
 				return null;
 			}

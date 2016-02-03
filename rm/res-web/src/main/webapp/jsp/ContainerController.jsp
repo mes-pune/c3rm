@@ -12,8 +12,10 @@
 <body>
 	<%
 		String name = request.getParameter("name");
+		String imageName = request.getParameter("imageName");
 		ContainerModel containerModel = new ContainerModel();
 		containerModel.setName(name);
+		containerModel.setImageName(imageName);
 		
 		ResourceManager resourceManager = new ResourceManagerImpl();
 		resourceManager.createContainer(containerModel);
