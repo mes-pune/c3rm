@@ -5,13 +5,21 @@
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
   <servlet>
-  	<servlet-name>ListContainer</servlet-name>
-  	<servlet-class>com.mes.c3rm.web.servlets.ListContainer</servlet-class>
+  	<servlet-name>ListContainers</servlet-name>
+  	<display-name>ListContainers</display-name>
+  	<description></description>
+  	<servlet-class>com.mes.c3rm.web.servlets.ListContainers</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ContainerActions</servlet-name>
+  	<display-name>ContainerActions</display-name>
+  	<description></description>
+  	<servlet-class>com.mes.c3rm.web.servlets.ContainerActions</servlet-class>
   </servlet>
   <servlet-mapping>
-  	<servlet-name>ListContainer</servlet-name>
+  	<servlet-name>ContainerActions</servlet-name>
   	<url-pattern>/res-web</url-pattern>
-  </servlet-mapping> 
+  </servlet-mapping>
   <welcome-file-list>
   	<welcome-file>res-web</welcome-file>
   </welcome-file-list>

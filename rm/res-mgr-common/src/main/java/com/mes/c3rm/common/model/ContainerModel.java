@@ -6,7 +6,9 @@ public class ContainerModel {
 	private String imageName;
 	private String instanceType;
 	private double cpuPercent;
-	private long memory;
+	private long usedMemory;
+	private long availableMemory;
+	private long totalMemory;
 	private long storage;
 	private boolean running;
 	private String ipAddress;
@@ -44,13 +46,6 @@ public class ContainerModel {
 		this.instanceType = instanceType;
 	}
 
-	public long getMemory() {
-		return memory;
-	}
-
-	public void setMemory(long memory) {
-		this.memory = memory;
-	}
 
 	public long getStorage() {
 		return storage;
@@ -90,5 +85,29 @@ public class ContainerModel {
 
 	public void setRunning(boolean running) {
 		this.running = running;
+	}
+
+	public long getUsedMemory() {
+		return usedMemory;
+	}
+
+	public void setUsedMemory(long usedMemory) {
+		this.usedMemory = usedMemory;
+	}
+
+	public long getAvailableMemory() {
+		return availableMemory;
+	}
+
+	public void setAvailableMemory(long availableMemory) {
+		this.availableMemory = availableMemory;
+	}
+
+	public long getTotalMemory() {
+		return totalMemory;
+	}
+
+	public void setTotalMemory(long totalMemory) {
+		this.totalMemory = totalMemory;
 	}
 }

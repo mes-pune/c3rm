@@ -2,6 +2,7 @@ package com.mes.c3rm.resources;
 
 import java.util.ArrayList;
 import java.util.List;
+
 import com.mes.c3rm.common.model.ContainerModel;
 import com.mes.c3rm.common.resources.ResourceManager;
 import com.spotify.docker.client.DefaultDockerClient;
@@ -35,11 +36,17 @@ public class ResourceManagerImpl implements ResourceManager{
 
 	public String createContainer(ContainerModel containerModel) {
 		try {
+			System.out.println("Creating container:"+ containerModel.getName());
+			
 			// pull image from repo
+			System.out.println("Downloading container from repo: "+ containerModel.getImageName());
 			dockerClient.pull(containerModel.getImageName());
+			System.out.println("Container downloaded successfully: "+ containerModel.getImageName());
+			
 			
 			ContainerConfig config = ContainerConfig.builder().image(containerModel.getImageName()).build();
 			ContainerCreation container = dockerClient.createContainer(config, containerModel.getName());
+			System.out.println("Container created successfully: "+ containerModel.getImageName() + " id:" + container.id());
 			return container.id();
 			
 		} catch (Exception e) {
@@ -50,10 +57,13 @@ public class ResourceManagerImpl implements ResourceManager{
 
 	public List<ContainerModel> getContainerList() {
 		try {
+			
 			List<Container> containers = dockerClient.listContainers();
 			if (containers.size() == 0) {
 				return null;
 			}
+			
+			System.out.println("Preparing container list");
 			
 			List<ContainerModel> containerList = new ArrayList<ContainerModel>();
 			for (Container container: containers) {
@@ -73,11 +83,18 @@ public class ResourceManagerImpl implements ResourceManager{
 				//cpu and memory statistics
 				ContainerStats stats = dockerClient.stats(containerId);
 				containerModel.setCpuPercent(calculatePercentCPU(stats));
-				containerModel.setMemory(stats.memoryStats().limit());
+				long usedMemory = stats.memoryStats().usage();
+				long totalMemory = stats.memoryStats().limit();
+				long availableMemory = totalMemory - usedMemory;
+				
+				containerModel.setAvailableMemory(availableMemory);
+				containerModel.setTotalMemory(totalMemory);
+				containerModel.setUsedMemory(usedMemory);
 				
 				containerList.add(containerModel);
 			}
 			
+			System.out.println("Container list created successfully");
 			return containerList;
 			
 		} catch (Exception e) {

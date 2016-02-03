@@ -17,6 +17,7 @@
 		
 		ResourceManager resourceManager = new ResourceManagerImpl();
 		resourceManager.createContainer(containerModel);
+		response.sendRedirect("/res-web");
 	%>
 
 </body>
